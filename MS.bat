@@ -22,7 +22,7 @@ stop "RemoteRegistry"
 sc config "RemoteRegistry" start= disabled
 sc stop "UmRdpService" 
 sc config "UmRdpService" start= disabled
-net accounts /minpwlen:8 
+net accounts /minpwlen: 8 
 net accounts /minpwage: 30
 net accounts /lockoutduration: 30
 net accounts /lockoutthreshold:3
